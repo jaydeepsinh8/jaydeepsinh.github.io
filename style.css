@@ -1,0 +1,88 @@
+
+
+body{
+  background-color: rgb(103, 227, 230);
+}
+h2{
+  color:red;
+}
+#j1{
+
+  text-align: center;
+}
+#t1{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 35%;
+  margin-top: 5%;
+  padding: 50px;
+  max-width: 20%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4%;
+  font-family: sans-serif;
+  font-weight: 600;
+
+  
+}
+#name{
+  border-radius: 5px;
+  padding: 5px;
+  width:80%;
+  margin:10px;
+  
+}
+#email{
+  border-radius: 5px;
+  width:80%;
+  padding: 5px;
+  margin:10px;
+  
+}
+#password{
+  border-radius: 5px;
+  padding: 5px;
+  width:80%;
+  margin:10px;
+  
+}
+#dob{
+  border-radius: 5px;
+  padding: 5px;
+  width:80%;
+  margin:10px;
+  
+}
+
+#c1{
+  display: inline-flex;
+  margin:10px;
+
+}
+button{
+  width:70px;
+  padding:5px;
+  border-radius: 15px;
+  background-color: deepskyblue;
+  color:white;
+  border-width: 1px;
+}
+#table-box{
+  margin:10px;
+  display: flex;
+  background-color: wheat;
+  flex-direction: column;
+  border:2px  solid black;
+  justify-content: flex-start;
+  align-items: left;
+  border-radius:20px;
+  height: 400px;
+  width: 700px;
+  
+}
+
+td,th{
+  border:2px  solid black;
+  width: 100px;
+  text-align: center;
+}
